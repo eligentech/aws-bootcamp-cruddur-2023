@@ -14,3 +14,12 @@ I created the conceptual and logical diagrams in Lucid following along with Andr
 
 I was able to install AWS CLI in Chrome using GitPod
 ![Proof of AWS CLI Installation](assets/proof-of-aws-cli-gitpod-and-admin-user.png)
+
+### Create Budget and set Billing Alert
+
+I watched Chirag's video and created a budget and setup a billing alert in AWS/Cloudwatch
+![Proof of AWS Budget](assets/aws-monthly-budget.png)
+![Proof of AWS Billing Alert](assets/aws-cloudwatch-billing-alert.png)
+
+
+
