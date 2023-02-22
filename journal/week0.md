@@ -21,5 +21,7 @@ I watched Chirag's video and created a budget and setup a billing alert in AWS/C
 ![Proof of AWS Budget](assets/aws-monthly-budget.png)
 ![Proof of AWS Billing Alert](assets/aws-cloudwatch-billing-alert.png)
 
+## Homework Challenges
 
+Considering I am already 5 days late I am going to work out the Homework Challenges at a later time.  While Red Squad status would be nice, I'm afraid of falling too far behind so early in the course.
 
