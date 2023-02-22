@@ -10,6 +10,10 @@ I created the conceptual and logical diagrams in Lucid following along with Andr
 
 [Cruddur Logical Design Diagram](https://lucid.app/lucidchart/a4e519aa-039f-4c00-b23c-66b49386e364/edit?viewport_loc=-252%2C304%2C2219%2C1065%2C0_0&invitationId=inv_046fae6f-acac-4600-b8e7-96ab94b3d8e8)
 
+### Create an IAM Admin user and setup MFA
+
+![Proof of IAM admin user with MFA](assets/setup-iam-user-and-mfa.png)
+
 ### Install and Verify AWS CLI
 
 I was able to install AWS CLI in Chrome using GitPod
