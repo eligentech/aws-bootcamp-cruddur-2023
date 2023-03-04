@@ -6,8 +6,8 @@ tracer = trace.get_tracer("home.activities")
 
 class HomeActivities:
   # To re-enable logging to cloudwatch add this below def run(logger):
-  def run(logger):
-      logger.info("HomeActivities")
+  def run():
+      # logger.info("HomeActivities")
       with tracer.start_as_current_span("home-activities-mock-data"):
         span = trace.get_current_span()
         now = datetime.now(timezone.utc).astimezone()

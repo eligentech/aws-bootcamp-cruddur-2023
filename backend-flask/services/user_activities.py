@@ -3,20 +3,20 @@ from aws_xray_sdk.core import xray_recorder
 class UserActivities:
   def run(user_handle):
     # X-RAY------------
-    segment = xray_recorder.begin_segment('user_activities')
-    model = {
-      'errors': None,
-      'data': None
-    }
+    # segment = xray_recorder.begin_segment('user_activities')
+    # model = {
+    #  'errors': None,
+    #  'data': None
+    # }
 
     now = datetime.now(timezone.utc).astimezone()
     # X-RAY------------
-    dict = {
-      "now": now.isoformat()
-    }
+    # dict = {
+    #  "now": now.isoformat()
+    #}
     # X-RAY------------
-    subsegment = xray_recorder.begin_segment('umock-data')
-    subsegment.put_metadata('key', dict, 'namespace')
+    # subsegment = xray_recorder.begin_segment('umock-data')
+    # subsegment.put_metadata('key', dict, 'namespace')
 
     if user_handle == None or len(user_handle) < 1:
       model['errors'] = ['blank_user_handle']
