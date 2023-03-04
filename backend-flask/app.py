@@ -28,11 +28,11 @@ from opentelemetry.sdk.trace.export import ConsoleSpanExporter, SimpleSpanProces
 # from aws_xray_sdk.ext.flask.middleware import XRayMiddleware
 
 # Cloudwatch Logs --------
-# import watchtower
-# import logging
-# from time import strftime
+import watchtower
+import logging
+from time import strftime
 
-# Rollbar
+# Rollbar ----------
 import os
 import rollbar
 import rollbar.contrib.flask
@@ -96,7 +96,7 @@ cors = CORS(
 #     return response
 
 
-# Rollbar
+# Rollbar -------------------------
 rollbar_access_token = os.getenv('ROLLBAR_ACCESS_TOKEN')
 @app.before_first_request
 def init_rollbar():
